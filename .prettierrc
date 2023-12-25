@@ -1,0 +1,21 @@
+{
+	"printWidth": 100,
+	"semi": true,
+	"singleQuote": true,
+	"tabWidth": 4,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "**/lwc/**/*.html",
+			"options": {
+				"parser": "lwc"
+			}
+		},
+		{
+			"files": "**/aura/**/*.js",
+			"options": {
+				"trailingComma": "none"
+			}
+		}
+	]
+}
